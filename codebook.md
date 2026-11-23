@@ -2,31 +2,11 @@ Codebuch – Netzwerkanalyse der Anne-Will-Sendungen 500–503
 
 1. Edgelist
 
-Die Edgelist erfasst die gerichteten Beziehungen zwischen den Knoten des Netzwerks. Jede Zeile beschreibt eine einzelne Beziehung. Die IDs in den Spalten from und to müssen mit den IDs der Nodelist übereinstimmen.
-
-Variable
-
-Definition und Codierung
-
-from
-
-Definiert den Ausgangsknoten einer gerichteten Beziehung. Die Angabe entspricht der ID eines Knotens aus der Nodelist.
-
-to
-
-Definiert den Zielknoten einer gerichteten Beziehung. Die Angabe entspricht der ID eines Knotens aus der Nodelist.
-
-relationship
-
-Definiert die Art der Beziehung. 1 = Gastteilnahme an einer Sendung, 2 = Parteizugehörigkeit einer Person.
-
-Kriterien der Beziehungscodierung
-
-Gastteilnahme (relationship = 1): Eine Beziehung wird erfasst, wenn eine Person als Gast in einer der untersuchten Anne-Will-Sendungen (Folgen 500–503) auftritt. Die Beziehung verläuft von der Person zur jeweiligen Sendung.
-
-Parteizugehörigkeit (relationship = 2): Eine Beziehung wird erfasst, wenn eine Person zum Untersuchungszeitraum einer Partei zugeordnet werden kann. Die Beziehung verläuft von der Person zum jeweiligen Parteienknoten.
-
-Personen ohne entsprechende Parteizugehörigkeit erhalten keine Parteikante.
+| Variable | Definition und Codierung |
+|---|---|
+| from | Definiert den Ausgangsknoten einer gerichteten Beziehung. |
+| to | Definiert den Zielknoten einer gerichteten Beziehung. |
+| relationship | 1 = Gastteilnahme, 2 = Parteizugehörigkeit. |
 
 2. Nodelist
 
