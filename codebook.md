@@ -10,35 +10,14 @@ Codebuch – Netzwerkanalyse der Anne-Will-Sendungen 500–503
 
 2. Nodelist
 
-Die Nodelist enthält sämtliche Knoten des Netzwerks. Jeder Knoten erhält eine eindeutige ID. Die Variable type unterscheidet zwischen Personen, Sendungen und Parteien.
-
-Variable
-
-Definition und Codierung
-
-id
-
-Eindeutige Identifikationsnummer eines Knotens. Die IDs werden sowohl in der Nodelist als auch in der Edgelist verwendet.
-
-name
-
-Name oder Bezeichnung des jeweiligen Knotens. Bei Personen wird der vollständige Name, bei Sendungen die Folgenummer und bei Parteien die vollständige Parteibezeichnung angegeben.
-
-type
-
-Definiert die Art des Knotens: 1 = Person, 2 = Sendung, 3 = Partei.
-
-party
-
-Erfasst die Parteizugehörigkeit einer Person. Mögliche Ausprägungen: SPD, CDU, LINKE, FDP und GRUENE. Bei Personen ohne entsprechende Parteizugehörigkeit sowie bei Sendungs- und Parteienknoten bleibt das Feld leer.
-
-sector
-
-Erfasst das berufliche beziehungsweise gesellschaftliche Tätigkeitsfeld einer Person. Mögliche Ausprägungen: Politik, Wissenschaft, Journalismus, Diplomatie, Militär und Literatur.
-
-country
-
-Erfasst das Land, dem die berufliche oder politische Funktion einer Person zum Untersuchungszeitpunkt zugeordnet wird.
+| Variable | Definition und Codierung |
+|---|---|
+| `id` | Eindeutige Identifikationsnummer eines Knotens. Die IDs werden sowohl in der Nodelist als auch in der Edgelist verwendet. |
+| `name` | Name oder Bezeichnung des jeweiligen Knotens. Bei Personen wird der vollständige Name, bei Sendungen die Folgenummer und bei Parteien die vollständige Parteibezeichnung angegeben. |
+| `type` | Definiert die Art des Knotens: 1 = Person, 2 = Sendung, 3 = Partei. |
+| `party` | Erfasst die Parteizugehörigkeit einer Person. Mögliche Ausprägungen: SPD, CDU, LINKE, FDP und GRUENE. |
+| `sector` | Erfasst das berufliche beziehungsweise gesellschaftliche Tätigkeitsfeld einer Person. Mögliche Ausprägungen: Politik, Wissenschaft, Journalismus, Diplomatie, Militär und Literatur. |
+| `country` | Erfasst das Land, dem die berufliche oder politische Funktion einer Person zum Untersuchungszeitpunkt zugeordnet wird. |
 
 3. Allgemeine Codierregeln
 
